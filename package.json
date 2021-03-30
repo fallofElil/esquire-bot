@@ -1,0 +1,27 @@
+{
+  "name": "esquire-bot",
+  "version": "1.0.0",
+  "description": "Bot for Discord",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fallofElil/esquire-bot.git"
+  },
+  "keywords": [
+    "discord.js",
+    "typescript",
+    "node.js"
+  ],
+  "author": "elil_",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fallofElil/esquire-bot/issues"
+  },
+  "homepage": "https://github.com/fallofElil/esquire-bot#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
