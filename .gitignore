@@ -1,2 +1,8 @@
+# dirs
+.idea
 node_modules
-config.json
+build
+dist
+
+# files
+.env

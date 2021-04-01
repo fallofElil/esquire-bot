@@ -2,9 +2,9 @@
   "name": "esquire-bot",
   "version": "1.0.0",
   "description": "Bot for Discord",
-  "main": "app.js",
+  "main": "dist/app.js",
   "scripts": {
-    "start": "tsc && node app.js",
+    "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +27,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   }
 }
