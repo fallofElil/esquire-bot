@@ -9,6 +9,7 @@
   },
   "repository": {
     "type": "git",
+    "watch": "tsc -p tsconfig.json -w",
     "url": "git+https://github.com/fallofElil/esquire-bot.git"
   },
   "keywords": [
@@ -18,16 +19,23 @@
   ],
   "author": "elil_",
   "license": "MIT",
+  "engines": {
+    "node": "14",
+    "npm": "6"
+  },
   "bugs": {
     "url": "https://github.com/fallofElil/esquire-bot/issues"
   },
   "homepage": "https://github.com/fallofElil/esquire-bot#readme",
   "devDependencies": {
     "@types/node": "^14.14.37",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   },
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "inversify": "^5.0.5",
+    "reflect-metadata": "^0.1.13"
   }
 }

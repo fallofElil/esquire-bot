@@ -1,6 +1,5 @@
-require('dotenv').config();
-const Discord = require('discord.js');
+import dotenv from 'dotenv';
+import {start} from './start'
 
-const client = new Discord.Client();
-
-client.login(process.env.BOT_TOKEN);
+dotenv.config()
+start()
