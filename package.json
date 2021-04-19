@@ -4,7 +4,7 @@
   "description": "Bot for Discord",
   "main": "dist/app.js",
   "scripts": {
-    "postinstall": "rm -v -rf dist && tsc && rm -v -rf src",
+    "postinstall": "rm -v -rf dist && tsc",
     "start": "node dist/app.js",
     "build": "tsc",
     "dev": "nodemon -x ts-node src/app.ts",
