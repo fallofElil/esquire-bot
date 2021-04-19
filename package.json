@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node dist/app.js",
     "build": "tsc",
-    "postinstall": "npm run build",
     "dev": "nodemon -x ts-node src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
