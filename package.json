@@ -4,8 +4,7 @@
   "description": "Bot for Discord",
   "main": "dist/app.js",
   "scripts": {
-    "postinstall": "rm -v -rf dist && tsc",
-    "start": "node dist/app.js",
+    "start": "ts-node src/app.js",
     "build": "tsc",
     "dev": "nodemon -x ts-node src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
